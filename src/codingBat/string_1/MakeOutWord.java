@@ -9,7 +9,7 @@ public class MakeOutWord {
 
      makeOutWord("<<>>", "Yay") → "<<Yay>>"
      makeOutWord("<<>>", "WooHoo") → "<<WooHoo>>"
-     makeOutWord("[[]]", "word") → "[[word]]"
+     makeOutWord("[[]]", "word")  → "[[word]]"
      *
      *
      */
