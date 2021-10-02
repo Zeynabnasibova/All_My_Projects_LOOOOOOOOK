@@ -19,13 +19,13 @@ String sentence = "the quick brown fox jumps over the lazy dog.";
 
 String [] strArr =  sentence.split(" ");
 
-        System.out.println(Arrays.toString(strArr));
+        System.out.println(Arrays.toString(strArr));//[the, quick, brown, fox, jumps, over, the, lazy, dog.]
 
 for(int i = 0; i < strArr.length; i++){
 
 String newStrArr = strArr[i].substring(0,1).toUpperCase() + strArr[i].substring(1);
 
-    System.out.print(newStrArr + " ");
+    System.out.print(newStrArr + " ");  //The Quick Brown Fox Jumps Over The Lazy Dog.
 
 
      }
@@ -38,7 +38,7 @@ String newStrArr = strArr[i].substring(0,1).toUpperCase() + strArr[i].substring(
 
             String newsentence = eachWord.substring(0,1).toUpperCase() + eachWord.substring(1);
 
-            System.out.print(newsentence +  " ");
+            System.out.print(newsentence +  " ");//The Quick Brown Fox Jumps Over The Lazy Dog.
 
         }
 
