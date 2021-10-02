@@ -11,13 +11,13 @@ public class Practice {
 
         String [] newStr = sentence.split(" ");
 
-        System.out.println(Arrays.toString(newStr));
+        System.out.println(Arrays.toString(newStr)); // [the, quick, brown, fox, jumps, over, the, lazy, dog.]
 
         System.out.println();
 
         char[] arr1 = sentence.toCharArray();
 
-        System.out.println(arr1);
+        System.out.println(arr1); //the quick brown fox jumps over the lazy dog.
 
     }
 }
