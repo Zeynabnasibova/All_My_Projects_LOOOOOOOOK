@@ -19,7 +19,7 @@ the quick brown fox jumps over the lazy dog.
 
         String newSentence = sentence.toLowerCase();
 
-        System.out.println(newSentence);
+        System.out.println(newSentence); // the quick brown fox jumps over the lazy dog.
 
     }
 }
