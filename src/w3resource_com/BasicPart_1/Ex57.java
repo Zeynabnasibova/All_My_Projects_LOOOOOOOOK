@@ -35,7 +35,7 @@ Input an integer: 25
             }
 
         }
-        System.out.println(fact);//
+        System.out.println(fact);
 
     }
 }
