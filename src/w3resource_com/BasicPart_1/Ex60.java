@@ -20,7 +20,7 @@ Penultimate word: lazy
 
         String newSentence = arrSentence[arrSentence.length - 2];
 
-        System.out.println(newSentence);
+        System.out.println(newSentence);//  lazy
 
 
 
