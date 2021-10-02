@@ -15,8 +15,17 @@ Reverse word: fasd
 
          */
 
-String sentence = "dsaf";
+            String str = "dsaf";
 
+            String reverse = "";
+
+            for(int i = str.length()-1;i >= 0; i--){
+
+
+                reverse += str.charAt(i);
+
+            }
+        System.out.println(reverse);
 
 
     }
