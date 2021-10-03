@@ -20,7 +20,7 @@ Ex: unique("AAABBBCCCDEF") ==>"DEF";
 
         String unique = "";
 
-        for(int i = 0; i < str.length(); i++){
+        for(int i = 0; i < str.length(); i++){//
 
             int count = 0;
 
