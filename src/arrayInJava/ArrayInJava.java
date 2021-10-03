@@ -1,4 +1,4 @@
-package ArrayInJava;
+package arrayInJava;
 
 public class ArrayInJava {
 

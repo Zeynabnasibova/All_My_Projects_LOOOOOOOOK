@@ -1,4 +1,4 @@
-package ArrayInJava;
+package arrayInJava;
 
 import java.nio.charset.Charset;
 

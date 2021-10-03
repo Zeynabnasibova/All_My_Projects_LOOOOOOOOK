@@ -1,6 +1,4 @@
-package ArrayInJava;
-
-import java.util.Base64;
+package arrayInJava;
 
 public class ConvertByteArrayToStringAndVice_Versa {
 
