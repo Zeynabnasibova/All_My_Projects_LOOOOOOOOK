@@ -12,6 +12,7 @@ Assign values of variables 'a' and 'b' as 55 and 70 respectively and then check 
         int a = 55;
         int b = 70;
 
+
         if(a < 50 && a < b ){
 
             System.out.println(true);
