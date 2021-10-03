@@ -1,6 +1,6 @@
 package codesDope.practiceJava.javaOperators;
 
-public class Q16 {
+public class Q16InterviewQuestion {
 
     public static void main(String[] args) {
 
