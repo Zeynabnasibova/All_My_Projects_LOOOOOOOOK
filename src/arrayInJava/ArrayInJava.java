@@ -1,5 +1,7 @@
 package arrayInJava;
 
+import java.util.Arrays;
+
 public class ArrayInJava {
 
     public static void main(String[] args) {
@@ -31,6 +33,7 @@ In this example, we have create an array of 5 elements. Indexes will range from 
         a[3] = 8;
         a[4] = 16;
 
+        System.out.println(Arrays.toString(a));
 
 /**
  2. Array Features
