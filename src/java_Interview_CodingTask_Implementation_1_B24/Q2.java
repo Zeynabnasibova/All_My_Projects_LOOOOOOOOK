@@ -30,5 +30,7 @@ public static boolean SameLetters(){
         return Arrays.equals(arr1, a2); // check for equality
 
 
+
+
     }
 }
