@@ -28,7 +28,7 @@ same("abc", "abb"); -> false:
         Arrays.sort(arrStr1);
         Arrays.sort(arrStr2);
 
-        if (arrStr1.equals(arrStr2)) {
+        if (Arrays.equals(arrStr1,arrStr2)){
 
             return true;
 
