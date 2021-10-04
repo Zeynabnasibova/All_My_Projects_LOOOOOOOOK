@@ -12,13 +12,13 @@ public class Q1 {
 Write a return method that can find the frequency of characters Ex: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
          */
 
-public static String frequencyOfCharacters(String word){
+public static String frequencyOfCharacters(String word){ //String word = "AAABBCDD
 
-        String letter = "";
+        String letter = "";// container
 
         for(int i = 0; i < word.length();i++){
 
-            if(!letter.contains("" + word.charAt(i))){
+            if(!letter.contains("" + word.charAt(i))){ //chek
 
                 letter += "" + word.charAt(i);
 
@@ -40,6 +40,7 @@ public static String frequencyOfCharacters(String word){
             }
 
             result += letter.charAt(i) + "" + count;
+
         }
 return result;
 
