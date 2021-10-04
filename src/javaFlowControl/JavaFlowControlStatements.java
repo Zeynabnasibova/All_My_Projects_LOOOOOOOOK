@@ -7,7 +7,7 @@ public class JavaFlowControlStatements {
     public static void main(String[] args) {
 
         /**
-         *ava application code is normally executed sequentially from top to bottom in the order that the code appears. To apply business logic, we may need to execute code on conditional basis. Control flow statements helps in this conditional execution of code blocks.
+         *Java application code is normally executed sequentially from top to bottom in the order that the code appears. To apply business logic, we may need to execute code on conditional basis. Control flow statements helps in this conditional execution of code blocks.
          *
          * All control flow statements are associated with a business condition – when true, the code block executes; when false it is skipped.
          *
@@ -87,7 +87,7 @@ public class JavaFlowControlStatements {
                                                       // 2
                                                       // 3
                                                       // 4
-                                                      // 5
+
 
             i++;
         }
