@@ -13,14 +13,16 @@ public class JavaCopyArrayRangeExample {
          */
 
 
-        String[] names = {"Alex", "Brian", "Charles", "David"};
+        String[] names1 = {"Alex", "Brian", "Charles", "David"};
 
 //Subarray from index '0' (inclusive) to index '2' (exclusive)
-        String[] partialNames = Arrays.copyOfRange(names, 0, 2);
+        String[] partialNames1 = Arrays.copyOfRange(names1, 0, 2);
 // [Alex, Brian]
 
 //Subarray to list
-        List<String> namesList = Arrays.asList( Arrays.copyOfRange(names, 2, names.length) );
+        List<String> namesList1 = Arrays.asList( Arrays.copyOfRange(names1, 2, names1.length) );
+
+        System.out.println(namesList1);
 // [Charles, David]
 
 
@@ -44,6 +46,8 @@ public class JavaCopyArrayRangeExample {
         1.1. Array range copy example
 
         Copy array range examples
+
+        */
         String[] names = {"Alex", "Brian", "Charles", "David"};         // [Alex, Brian]
 
         //Copy till second name from with index '0'
@@ -55,6 +59,8 @@ public class JavaCopyArrayRangeExample {
         //Copy last 8 names start with index '2'
         //No ArrayIndexOutOfBoundsException error
         String[] moreNames = Arrays.copyOfRange(names, 2, 10);
+
+        /**
         2. Subarray to Arraylist
 
         Java example to create arraylist from subarray. It is done in two steps:
