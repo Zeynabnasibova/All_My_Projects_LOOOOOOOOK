@@ -36,14 +36,15 @@ public class JavaArraySort {
 
         String[] tokens = {"A","C","B","E","D"};
 
-        System.out.println(Arrays.toString(tokens));    //[A, C, B, E, D]
+        System.out.println(Arrays.toString(tokens));    //[A, C, B, E, D
 
         Arrays.sort(tokens);
 
 //Verify sorted array elements
         System.out.println(Arrays.toString(tokens));    //[A, B, C, D, E]
-
-
+        System.out.println();
+        Arrays.sort(tokens, Collections.reverseOrder());
+        System.out.println(Arrays.toString(tokens));
         /**
          1.1) Sort array in reverse order
 
