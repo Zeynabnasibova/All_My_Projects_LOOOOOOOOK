@@ -7,6 +7,10 @@ public class SubarraytoArraylist {
 
     public static void main(String[] args) {
 
+
+
+
+
 /**
  2. Subarray to Arraylist
 
