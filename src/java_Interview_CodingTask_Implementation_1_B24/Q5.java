@@ -10,16 +10,22 @@ Ex: Reverse("ABCD"); ==> DCBA
      */
     public static void main(String[] args) {
 
-String str = "ABCD";
+        System.out.println(reverse("ABCD"));
+    }
 
-String reverse = "";
+    public static String reverse(String word){
 
-for(int i = str.length()-1; i >= 0; i--){
+        String reverse =""; //empty String variable like container,
 
-    reverse += str.charAt(i);
 
-}
-        System.out.println(reverse);
+//initialization shows us we started at the end of the String and go to the beginning of the String
+        for (int i=word.length()-1; i>=0;i--){
+            // when termination expression evaluated to true then start to increment
 
+            //when the conditions is true our code take one letter from the String  and again looping while false.Then evaluated code.
+            reverse += word.charAt(i);
+        }
+
+        return reverse;
     }
 }
