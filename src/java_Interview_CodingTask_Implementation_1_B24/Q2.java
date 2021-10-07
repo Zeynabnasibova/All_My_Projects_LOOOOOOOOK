@@ -4,33 +4,32 @@ import java.util.Arrays;
 
 public class Q2 {
 
+    //I call my method inside the main method
+    //Which evaluated true or false
     public static void main(String[] args) {
-
-        System.out.println(SameLetters());
+        System.out.println(sameLetter("abc","cab"));
     }
-        /*
-      Q2: String -- Same letters
-Write a return method that check if a string is build out of the same letters as another string.
-Ex: same("abc", "cab"); -> true
-same("abc", "abb"); -> false:
 
-         */
-public static boolean SameLetters(){
+    /**
+     * Q2: String -- Same letters
+     * Write a return method that check if a string is build out of the same letters as another string.
+     * Ex: same("abc", "cab"); -> true
+     * same("abc", "abb"); -> false:
+     */
 
-        String str1 = "abc";
-        String str2 = "cab";
-
-        char[] arr1 = str1.toCharArray();  //  first I convert the strings into char[] arrays
-
-        char[] arr2 = str2.toCharArray();
-
-        Arrays.sort(arr1); // Then I sort this array
-        Arrays.sort(arr2);
-
-        return Arrays.equals(arr1, arr2); // check for equality
+    public static boolean sameLetter(String first,String second){ //I am created my own method which return boolean value
 
 
+        //First I convert the Strings in to charArrays
+        char[] firstArr = first.toCharArray();
+        char[] secondArr = second.toCharArray();
 
+        //Then I sort Array
+        Arrays.sort(firstArr);
+        Arrays.sort(secondArr);
+
+        //Then check for equality
+        return Arrays.equals(firstArr,secondArr);
 
     }
 }
