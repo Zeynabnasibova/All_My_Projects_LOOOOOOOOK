@@ -1,47 +1,41 @@
 package java_Interview_CodingTask_Implementation_1_B24;
 
 public class Q4 {
-/*
-Q4: String -- Find the unique
-Write a return method that can find the unique characters from the String
-Ex: unique("AAABBBCCCDEF") ==>"DEF";
+    /*
+    Q4: String -- Find the unique
+    Write a return method that can find the unique characters from the String
+    Ex: unique("AAABBBCCCDEF") ==>"DEF";
 
 
- */
+     */
     public static void main(String[] args) {
 
 
         System.out.println(findTheUnique("AAABBBCCCDEF"));
     }
 
-    public static String findTheUnique(String str){
-
-       // String str = "AAABBBCCCDEF";
+    public static String findTheUnique(String letter) {
 
         String unique = "";
+        for (int i = 0; i < letter.length(); i++) {// in the outer loop String took first letter,then
+            //
 
-        for(int i = 0; i < str.length(); i++){//
+            int count = 0;  // I give int variable inside the outer loop because I want every time reset.
 
-            int count = 0;
+            for (int j = 0; j < letter.length(); j++) { //go inside the inner loop, and check whole String
 
-            for(int j = 0; j < str.length(); j++){
-
-                if(str.charAt(i) == str.charAt(j)){
-
+                if (letter.charAt(i) == letter.charAt(j)) { // if letter which have in outer loop equal to the letter inner loop then go to the count
                     count++;
+                }
 
             }
 
-            }
-            if(count == 1){
-
-                unique += str.charAt(i);
+            if (count == 1) { // if count =1
+                unique += letter.charAt(i); // in our unique container come that letter.
 
             }
-
         }
-       return unique;
-
-
+        return unique;
     }
+
 }
