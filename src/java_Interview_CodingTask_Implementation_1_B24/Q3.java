@@ -18,7 +18,7 @@ Ex: removeDup("AAABBBCCC") ==> ABC
 
         String eachOneLetter = ""; // first step: in here come first letter --> A --> because in here we dont't have that letter befor --> next step: if have that letter don't put
                                   // next step: if in here we didn't have new letter put in here next new letter --> AB  --> next step: if have that letter don't put
-                                 //next step:  again chek and put in here letter if we didint have in here that letter--> ABC -->next step: if have that letter don't put
+                                 //next step:  again chek and put in here letter if we didn't have in here that letter--> ABC -->next step: if have that letter don't put
 
         for (int i = 0; i < str.length(); i++) {
 
