@@ -3,7 +3,7 @@ package arrayInJava;
 import java.util.Arrays;
 import java.util.regex.Pattern;
 
-public class JavaStringToStringArray {
+public class ConvertStringToStringArray {
 
     public static void main(String[] args) {
 
