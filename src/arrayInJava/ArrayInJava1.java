@@ -2,7 +2,7 @@ package arrayInJava;
 
 import java.util.Arrays;
 
-public class ArrayInJava {
+public class ArrayInJava1 {
 
     public static void main(String[] args) {
 
