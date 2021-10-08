@@ -1,9 +1,10 @@
 package arrayInJava;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class JavaArraySort {
+public class ArraySort {
 
     public static <Employee> void main(String[] args) {
 
@@ -38,7 +39,7 @@ public class JavaArraySort {
 
         System.out.println(Arrays.toString(tokens));    //[A, C, B, E, D
 
-        Arrays.sort(tokens);
+      Arrays.sort(tokens);
 
 //Verify sorted array elements
         System.out.println(Arrays.toString(tokens));    //[A, B, C, D, E]
