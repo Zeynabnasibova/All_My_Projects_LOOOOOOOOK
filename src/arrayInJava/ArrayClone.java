@@ -1,6 +1,6 @@
 package arrayInJava;
 
-public class JavaArrayClone {
+public class ArrayClone {
 
     public static <Employee> void main(String[] args) {
 
@@ -12,7 +12,9 @@ public class JavaArrayClone {
          * Cloning always creates shallow copy of array. Any change (in original array) will be reflected in cloned array as well.
          */
 
-
+/*
+Clone an array
+ */
 
     }
 }
