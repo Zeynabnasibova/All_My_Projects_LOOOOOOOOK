@@ -3,7 +3,7 @@ package arrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SubarraytoArraylist {
+public class SubarraytoArraylistCoppyOfRange {
 
     public static void main(String[] args) {
 
