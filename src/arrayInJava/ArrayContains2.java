@@ -2,7 +2,7 @@ package arrayInJava;
 
 import java.util.Arrays;
 
-public class JavaArrayContains {
+public class ArrayContains2 {
 
     public static void main(String[] args) {
 
@@ -12,12 +12,18 @@ public class JavaArrayContains {
 
         String[] fruits = new String[] { "banana", "guava", "apple", "cheeku" };
 
+
+        boolean bl = Arrays.asList(fruits).contains("apple");
+        System.out.println(bl);// true
+
+        int index = Arrays.asList(fruits).indexOf("apple");
+        System.out.println(index);// 2
+
         Arrays.asList(fruits).contains("apple"); // true
         Arrays.asList(fruits).indexOf("apple"); // 2
 
         Arrays.asList(fruits).contains("lion"); // false
         Arrays.asList(fruits).indexOf("lion"); // -1
-
 
         System.out.println(Arrays.asList(fruits).contains("apple"));
         System.out.println(Arrays.asList(fruits).indexOf("apple"));
