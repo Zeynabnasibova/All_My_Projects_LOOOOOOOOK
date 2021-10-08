@@ -3,7 +3,7 @@ package arrayInJava;
 import java.util.Arrays;
 import java.util.List;
 
-public class JavaCopyArrayRangeExample {
+public class CopyArrayRangeExample {
 
 
     public static void main(String[] args) {
