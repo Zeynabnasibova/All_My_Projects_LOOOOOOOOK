@@ -1,8 +1,9 @@
 package arrayInJava;
 
 import java.nio.charset.Charset;
+import java.util.Arrays;
 
-public class JavaByteArrToString {
+public class ConvertByteArrToString {
 
     public static void main(String[] args) {
 
@@ -27,6 +28,7 @@ public class JavaByteArrToString {
         String name = "howtodoinjava.com";
 
         byte[] byteArray = name.getBytes();
+        System.out.println(Arrays.toString(byteArray));
 
         String str = new String(byteArray);
         String strWithCharset = new String(byteArray, Charset.defaultCharset());
@@ -34,6 +36,12 @@ public class JavaByteArrToString {
         System.out.println("Original String: "+ name );
         System.out.println("Obtained String: "+ str );
         System.out.println("Obtained String: "+ strWithCharset );
+
+
+        byte [] byteArr = {104, 111, 119};
+        System.out.println(Arrays.toString(byteArr));//[104, 111, 119]
+        String str1 = new String(byteArr);
+        System.out.println(str1);//how
 
 //Output:
 //
