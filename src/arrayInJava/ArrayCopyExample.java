@@ -2,7 +2,7 @@ package arrayInJava;
 
 import java.util.Arrays;
 
-public class JavaArrayCopyExample {
+public class ArrayCopyExample {
 
     public static void main(String[] args) {
 
@@ -14,20 +14,22 @@ public class JavaArrayCopyExample {
          Note that all given below approaches create shallow copy of array. To create deep copies of array, follow provided link.
          */
 
-     /*
-        String[] names = {"Alex", "Brian", "Charles", "David"};
 
+        String[] names2 = {"Alex", "Brian", "Charles", "David"};
+        System.out.println(Arrays.toString(names2));
 // Use arr.clone() method - Recommended
-        String[] cloneOfNames = names.clone();
-
+        String[] cloneOfNames2 = names2.clone();
+        System.out.println(Arrays.toString(cloneOfNames2));
 // Use Arrays.copyOf() method - Most readable
-        String[] copyOfNames = Arrays.copyOf(names, names.length);
-
+        String[] copyOfNames2 = Arrays.copyOf(names2, names2.length);
+        System.out.println(Arrays.toString(copyOfNames2));
 //Using System.arraycopy() method - Equally efficient but less readable
-        String[] copyOfNames2 = new String[names.length];
-        System.arraycopy(names, 0, copyOfNames2, 0, copyOfNames2.length);
 
-*/
+        System.out.println();
+        String[] copyOfNames3 = new String[names2.length];
+
+        System.out.println(copyOfNames3);
+
 
         /**
         1) array.clone()
