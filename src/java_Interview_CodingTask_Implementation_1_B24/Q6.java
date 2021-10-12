@@ -21,9 +21,9 @@ OutPut: "CD015ACCCG011899"
 
         Arrays.sort(str1Arr);
 
-        String newstr1Arr = String.join("",str1Arr);
+        String newstr1Arr = String.join("",str1Arr);//cd
 
-        System.out.println(newstr1Arr);
+        //System.out.println(newstr1Arr);
         // 2
         String str2 = str.substring(2,5);
 
@@ -31,7 +31,7 @@ OutPut: "CD015ACCCG011899"
 
         Arrays.sort(str2Arr);
 
-        String newstr2Arr = String.join("",str2Arr);
+        String newstr2Arr = String.join("",str2Arr);//015
         // 3
         String str3 = str.substring(5,10);
 
