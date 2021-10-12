@@ -12,7 +12,7 @@ public class Q16ReverseNumber {
 
         int reverse = 0;//reverse (stores the reverse number) initialized 0.
 
-        //we want to reverse the number 132.
+        //we want to reverse the number 132
        int number = 132;
 
        while(number != 0){
