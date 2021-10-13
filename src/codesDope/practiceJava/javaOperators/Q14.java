@@ -14,19 +14,19 @@ For example, if the number which was taken is 5696, then the displayed number sh
 
         int number = 5696;
 
-        int first = number/1000 + 2;
+        int first = number / 1000 + 2;
 
-        number = number % 1000;
+        number = number % 1000; //696
 
     //    System.out.println(number);//696
 
-        int second = number/100 + 2;
+        int second = number / 100 + 2;
 
         number = number % 100;
 
       //  System.out.println(number);//96
 
-        int third = (number/10 + 2) / 10;
+        int third = (number / 10 + 2) / 10;
 
       //  System.out.println(number);
 
