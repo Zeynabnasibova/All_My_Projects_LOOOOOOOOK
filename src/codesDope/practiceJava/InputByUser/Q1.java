@@ -12,7 +12,9 @@ public class Q1 {
 
         Scanner input = new Scanner (System.in);
 
+        System.out.println("Enter your firts number");
         int num1 = input.nextInt();
+        System.out.println("Enter your second number");
         int num2 = input.nextInt();
 
         int sum = num1 + num2;
