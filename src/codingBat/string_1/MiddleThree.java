@@ -20,7 +20,6 @@ public class MiddleThree {
         //str  = str.substring(str.length()/2-1,str.length()/2+1) + str.substring(str.length()/2+1,str.length()/2+2);
 
         str  = str.substring(str.length()/2-1,str.length()/2+1) +  str.charAt(str.length()/2 + 1);
-
         return str;
     }
 }

@@ -9,7 +9,6 @@ public class LastChars {
      * lastChars("yo", "java") → "ya"
      * lastChars("hi", "") → "h@"
      */
-
     public static void main(String[] args) {
         System.out.println(lastChars("last","chars"));
 

@@ -9,7 +9,6 @@ public class ExtraFront {
      * extraFront("ab") → "ababab"
      * extraFront("H") → "HHH"
      */
-
     public static void main(String[] args) {
 
         System.out.println(extraFront("Hello"));

@@ -19,7 +19,6 @@ public class NonStart {
 
     }
 
-
     public static String nonStart(String a, String b) {
         String newab  = a.substring(1)+b.substring(1);
         return newab;
