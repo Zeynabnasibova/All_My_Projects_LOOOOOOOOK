@@ -13,23 +13,27 @@ For example, given N = 4, the function could return [1,0, -3,2] or [-2,1, -4,5].
 
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(Solution(3)));
+        System.out.println(Arrays.toString(Solution(4)));
     }
-    public static int[] Solution(int N){
 
-        int[] result = new int[N];
+
+    public static int[] Solution(int n){
+
+        int[] result = new int[n];
 
         int sum = 0;
 
-        for(int i=0; i < N-1; i++) {
+
+        for(int i=0; i < n-1; i++) {//go antil befor last one elemnt
 
             result[i] =i;
 
             sum += i;
         }
-        result[N-1] = -sum;
+        result[n-1] = -sum;//for last element use this one
 
         return result;
     }
 
 }
+// output 0 + 1 + 2 = 3 - 3 = 0

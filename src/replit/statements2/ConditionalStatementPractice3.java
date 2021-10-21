@@ -1,5 +1,7 @@
 package replit.statements2;
 
+import java.util.Scanner;
+
 public class ConditionalStatementPractice3 {
 
     public static void main(String[] args) {
@@ -18,6 +20,17 @@ output: teacher
 input: Faa
 output: student
          */
+
+        Scanner input = new Scanner(System.in);
+        String name = input.next();
+
+        if(name.equals("Chen")){
+
+            System.out.println("teacher");
+        }else{
+            System.out.println("student");
+        }
+
 
 
     }

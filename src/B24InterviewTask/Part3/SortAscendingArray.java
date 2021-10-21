@@ -19,6 +19,8 @@ arr = Sort(arr);==>{ 7, 8, 9, 10};
         System.out.println(Arrays.toString(sortAscending(arr)));
     }
 
+
+
     public static int[] sortAscending(int[] arr) {
 
         arr = new int []{10, 9, 8, 7};

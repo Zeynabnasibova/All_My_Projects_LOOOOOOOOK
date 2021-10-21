@@ -22,17 +22,17 @@ arr = Sort(arr);==>{90, 20, 10, 8, 7};
         int temp = 0;
 
 
-        for (int i = 0; i < arr.length ; i++) {
+        for (int i = 0; i < arr.length ; i++) {//for loop iterates through each element
 
-            for (int j = i +1; j < arr.length; j++) {
+            for (int j = i +1; j < arr.length; j++) {//compares first element to each additional element
 
-                if (arr[i] < arr[j]){
+                if (arr[i] < arr[j]){//if the firdt element is less than the one it is compared to it is added to the temp
 
-                    temp = arr[i];
+                    temp = arr[i];//values are sorted in temp in descending order
 
-                    arr[i] = arr[j];
+                    arr[i] = arr[j];//loop continius to iterate throgh all elements
 
-                    arr[j] = temp;
+                    arr[j] = temp;//element are stored in descending order
                 }
             }
 

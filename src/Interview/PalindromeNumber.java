@@ -18,8 +18,9 @@ public class PalindromeNumber {
 
         
         boolean isPalindrome = false;
-        if(number == reverse(number))
-        {
+
+        if(number == reverse(number)) {
+
             isPalindrome = true;
         }
         return isPalindrome;

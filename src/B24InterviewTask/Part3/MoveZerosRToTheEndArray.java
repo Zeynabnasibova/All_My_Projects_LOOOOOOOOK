@@ -1,6 +1,5 @@
 package B24InterviewTask.Part3;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MoveZerosRToTheEndArray {
@@ -12,9 +11,15 @@ input:  {1,0,2,0,3,0,4,0};
 output: [1, 2, 3, 4, 0, 0, 0, 0]
      */
 
-        public static void main (String[]args){
+        public static void main (String[]args) {
 
-            int[] numbers = {1,0,2,0,3,0,4,0};
+            int [] numbers = new int[] {1,0,2,0,3,0,4,0};
+            System.out.println(Arrays.toString(moveZerosToTheEnd(numbers)));
+
+        }
+
+public static int [] moveZerosToTheEnd(int [] numbers){
+           numbers = new int[] {1,0,2,0,3,0,4,0};
 
             int index = 0;
 
@@ -30,7 +35,10 @@ output: [1, 2, 3, 4, 0, 0, 0, 0]
                 numbers[i] = 0;
 
             }
-            System.out.println(Arrays.toString(numbers));
+            //System.out.println(Arrays.toString(numbers));
+
+    return numbers;
+
 
         }
 
