@@ -11,5 +11,10 @@ Nothing else. Yes, its that simple!
 
 
         int degreesCelsius;
+
+        //DO NOT TOUCH BELOW LINES.
+        degreesCelsius = 35;
+        System.out.println(degreesCelsius);
+
     }
 }

@@ -1,5 +1,7 @@
 package replit.variable1;
 
+import java.util.Scanner;
+
 public class Time {
     /*
     In this assignment, you will write code to put together time of day.
@@ -17,9 +19,21 @@ Using the variables and concatenation, print values in the format mentioned abov
     int hour = 12;
     int minute = 24;
     int second = 33;
+        String amOrPm = "PM";
 
-    System.out.println(hour + ":" + minute + ":" + second + " PM");
+        //DO NOT TOUCH BELOW LINES. TEACHER WILL SET VALUES
+        Scanner scan = new Scanner(System.in);
+        hour   = scan.nextInt();
+        minute = scan.nextInt();
+        second = scan.nextInt();
+        amOrPm = scan.next();
+        //#############################
+
+        //2. WRITE YOUR CODE HERE:
+        System.out.println(hour+":"+minute+":"+second+" "+amOrPm);
 
 
-   }
+
+
+    }
 }
