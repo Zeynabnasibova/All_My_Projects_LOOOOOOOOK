@@ -19,7 +19,7 @@ input: barakobama@gmail.com
 output: barakobama@gmail.com
          */
 
-        String email = "barakobama@gmail.com";
+        String email = "mike_tyson@gmail.com";
         if(email.contains("_")) {
 
             String name = email.substring(0, email.indexOf("_"));

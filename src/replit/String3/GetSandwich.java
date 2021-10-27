@@ -32,9 +32,18 @@ output: butter
 
         String sandwich = input.next();//breadjambread
 
-        String between = sandwich.substring(sandwich.indexOf("bread"),sandwich.indexOf("bread"));
+        if(sandwich.startsWith("bread") && sandwich.endsWith("bread")) {
 
-        System.out.println(between);
-//sender = message.substring(message.indexOf("<")+1,message.indexOf(">"));
+            System.out.println(sandwich.substring(5, sandwich.length() - 5));
+
+        }else if(sandwich.substring(2).startsWith("bread") && sandwich.substring(sandwich.length() - 7).contains("bread") && sandwich.length() > 9){
+
+            System.out.println(sandwich.substring(7,sandwich.length()-7));
+
+        }else{
+
+            System.out.println("nothing");
+        }
+
     }
 }
