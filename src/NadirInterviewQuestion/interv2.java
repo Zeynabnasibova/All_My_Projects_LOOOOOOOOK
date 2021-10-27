@@ -1,6 +1,6 @@
 package NadirInterviewQuestion;
 
-public class interv {
+public class interv2 {
 
     /*
 create metod which will acsept two string return str
