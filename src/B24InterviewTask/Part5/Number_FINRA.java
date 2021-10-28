@@ -14,32 +14,27 @@ Write a method which prints out the numbers from 1 to 30 but for numbers which a
         System.out.println("Enter number");
         int number = input.nextInt();
 
-        System.out.println(finra(number));
+        finra(5);
 
     }
 
-    public static String finra(int number) {
+    public static void finra(int i ) {
 
-        int fin = 3;
-        int ra = 5;
+        String result = "";
 
-    if(number * 3 <= 30 && number * 5 <= 30){
+        for ( i = 1; i <= 30; i++) {
 
-        return "FINRA";
-
-    }else if(number * 3 <= 30){
-
-             return "FIN";
-
-        }else if(number * 5 <= 30 ) {
-
-            return "RA";
-
-        }else{
-
-             return "Non are multiple";
+            if (i % 3 == 0 && i % 5 == 0) {
+                result += "FINRA ";
+            } else if (i % 5 == 0) {
+                result += "FIN ";
+            } else if (i % 3 == 0) {
+                result += "RA ";
+            } else {
+                result += i + " ";
+            }
         }
 
-
+        System.out.println(result);
     }
 }

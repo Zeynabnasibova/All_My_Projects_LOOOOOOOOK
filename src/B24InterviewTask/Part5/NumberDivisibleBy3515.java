@@ -21,11 +21,11 @@ if the number can be divisible by 5 but cannot be divisible by 15, then it shoul
 
                 System.out.println("DivisibelBy15");
 
-            } if (number >= 1 && number <= 100 && number % 3 == 0 && number % 15 == 1) {
+            }else if (number >= 1 && number <= 100 && number % 3 == 0) {
 
                 System.out.println("DivisibelBy3");
 
-            }if (number >= 1 && number <= 100 && number % 5 == 0 && number % 15 == 1) {
+            }else if (number >= 1 && number <= 100 && number % 5 == 0) {
 
                 System.out.println("DivisibelBy5");
 

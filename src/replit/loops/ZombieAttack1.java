@@ -42,11 +42,12 @@ Day 4 [1]
                 inhabitants /= 2;
 
                 dayCount++;
+
             }
+
             System.out.println("---- EXTINCT ----");
+
         }
-
-
     }
 }
 
