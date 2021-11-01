@@ -3,30 +3,34 @@ import java.util.Scanner;
 public class Arrays011Printing01 {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        String[] str = {scan.next(), scan.next(), scan.next(),
-                scan.next(), scan.next(), scan.next()};
-
-
-        String shortest = str[0];
-
-        for(int i = 0; i < str.length; i++){
-
-            if(str[i].length() < shortest.length()){
-
-                shortest = str[i];
-
-            }
-
+        Scanner input = new Scanner(System.in);
+        String[] arr = new String[5];
+        for (int i=0;i<5;i++) {
+            arr[i] = input.nextLine();
         }
-        System.out.println(shortest);
+if(arr.length >= 3) {
 
+    for (int i = 0; i < arr.length; i++) {
+
+        String newWords = arr[i].substring(0,3);
+        System.out.println(newWords);
+
+
+           }
+
+       }
     }
 }
 /*
-Write a program that will print the shortest word in the given array str.
+The code provided in your main method will take in five Strings and save them into an array called arr. Print out the first three letter of each element on seperate lines. You can assume that every element of arr is at least 3 letters long.
 
-input: java, cable, red, vivid, remedy, grace
+Example:
+arr -> ["hello", "how", "are", "you", "doing"]
 
-output: red
+Output:
+hel
+how
+are
+you
+doi
  */
