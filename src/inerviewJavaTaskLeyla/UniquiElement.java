@@ -1,4 +1,4 @@
 package inerviewJavaTaskLeyla;
 
-public class UniquiElementN {
+public class UniquiElement {
 }

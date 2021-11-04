@@ -21,6 +21,7 @@ output: 120
         System.out.println("Enter number");
 
      long factorial = 1;
+
      for(int num = input.nextInt();num > 0; num-- ){
 
       factorial *= num ;
