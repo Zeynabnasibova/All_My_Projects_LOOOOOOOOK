@@ -2,6 +2,11 @@ package SaimJavaInterviewCodingTasks;
 
 public class NumbersPrimeNumber {
 
+    public static void main(String[] args) {
+        System.out.println(primeNumber(32));
+    }
+
+
     public static boolean primeNumber(int num) {
 
         if(num <= 1){

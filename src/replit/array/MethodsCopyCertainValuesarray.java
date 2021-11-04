@@ -12,16 +12,16 @@ public class MethodsCopyCertainValuesarray {
     }
 
 
-    public static String[] getWithE(String[] arr) {
+    public static String[] getWithE(String[] str) {
 
 
         String newWords = "";
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < str.length; i++) {
 
-            if (arr[i].contains("e")) {
+            if (str[i].contains("e")) {
 
-                newWords += arr[i] + " ";
+                newWords += str[i] + " ";
 
             }
 

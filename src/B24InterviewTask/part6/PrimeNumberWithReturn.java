@@ -32,7 +32,7 @@ Write a method that can check if a number is prime or not
 
     public static boolean isPrime(int num) {
 
-        if (num == 0 || num == 1) {
+        if (num <= 1) {
 
           return false;
 
@@ -40,7 +40,7 @@ Write a method that can check if a number is prime or not
 
             int count = 0;
 
-            for (int i = 2; i <= num; i++) {
+            for (int i = 1; i <= num; i++) {//5
 
                 if (num % i == 0) {
 
@@ -48,8 +48,7 @@ Write a method that can check if a number is prime or not
                 }
 
             }
-            if (count == 1) {
-
+            if (count == 2) {
 
               return true;
 
