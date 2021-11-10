@@ -21,7 +21,7 @@ public class ReverseLetter {
 
             if (Character.isLetter(str.charAt(i))) {
 
-                reverse += "" + str.charAt(i);
+                reverse += str.charAt(i);
 
                 pos = reverse.length() - 1;
 
