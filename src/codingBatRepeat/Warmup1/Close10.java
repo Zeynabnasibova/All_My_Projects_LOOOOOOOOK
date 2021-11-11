@@ -9,7 +9,7 @@ public class Close10 {
 
         int a = 8;
         int b = 10;
-        System.out.println(obj.close10(a,b));
+        System.out.println(obj.close10(a, b));
 
 
     }
@@ -22,14 +22,15 @@ public class Close10 {
             return b;
 
 
-        }else if (Math.abs(b - 10) > Math.abs(a - 10)) {
+        } else if (Math.abs(b - 10) > Math.abs(a - 10)) {
 
-                return a;
+            return a;
 
 
-            } else {
+        } else {
 
-                return 0;
-            }
-
+            return 0;
         }
+
+    }
+}
