@@ -17,6 +17,11 @@ public class NumberReverseNegativeNumber {
 
     }
 
+    public static void main(String[] args) {
+
+        System.out.println(reverseNum(-123));
+    }
+
 }
 /*
 Write a return method that can reverse negative number and return it as int

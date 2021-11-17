@@ -4,11 +4,28 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class RemoveEveryOther {
-//
-//
-//public static ArrayList <String> removeEveryOther(ArrayList <String> list) {
-//}
 
+
+public static ArrayList <String> removeEveryOther(ArrayList <String> list) {
+
+
+    if(list.size()==3){
+
+        list.remove(0);
+        list.remove(1);
+
+        return list;
+
+    }else{
+        list.remove(0);
+        list.remove(1);
+        list.remove(2);
+
+
+        return list;
+
+    }
+}
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int size = in.nextInt();
@@ -17,7 +34,7 @@ public class RemoveEveryOther {
             list.add(in.next());
         }
 
-     //   System.out.println(removeEveryOther(list));
+       System.out.println(removeEveryOther(list));
 
     }
 

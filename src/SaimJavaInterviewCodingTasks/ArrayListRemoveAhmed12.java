@@ -13,8 +13,7 @@ public class ArrayListRemoveAhmed12 {
 
     List<String> names = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
 
-for(
-    ListIterator<String> it=names.listIterator(); it.hasNext();)
+for(ListIterator<String> it=names.listIterator(); it.hasNext();)
 
             if(it.next().equals("Ahmed"))
 
