@@ -1,5 +1,7 @@
 package SaimJavaInterviewCodingTasks;
 
+import java.util.Arrays;
+
 public class ArrayConcatTwoArray {
 
     public static int[] concatTwoArrays(int[] arr1 , int[] arr2) {
@@ -26,6 +28,12 @@ public class ArrayConcatTwoArray {
 
         return result;
 
+    }
+
+    public static void main(String[] args) {
+        int [] arr1 = {1, 2, 3};
+        int [] arr2 = {4, 5, 6};
+        System.out.println(Arrays.toString(concatTwoArrays(arr1,arr2)));
     }
 }
 /*
