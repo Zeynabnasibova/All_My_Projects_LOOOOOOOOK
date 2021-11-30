@@ -19,7 +19,7 @@ output: [1, 2, 3, 4, 0, 0, 0, 0]
         }
 
 public static int [] moveZerosToTheEnd(int [] numbers){
-           numbers = new int[] {1,0,2,0,3,0,4,0};
+           numbers = new int[] {0,0,2,0,3,0,4,0};
 
             int index = 0;
 

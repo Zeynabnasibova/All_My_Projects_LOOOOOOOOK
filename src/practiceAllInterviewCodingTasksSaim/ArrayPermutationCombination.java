@@ -1,13 +1,16 @@
-package B24InterviewTask.part3;
- //first I create GetAllPermutation class to get all the Permutation of the array.
-public class GetAllPermutation {
+package practiceAllInterviewCodingTasksSaim;
 
-   //third I create a static method getPermutations(), and inside this method, I call the helper() method
+public class ArrayPermutationCombination {
+    /*
+Given an array of 3 characters print all permutation combinations from the given characters
+ */
+
+    //third I create a static method getPermutations(), and inside this method, I call the helper() method
     public static void getPermutations(int[] array){
 
         helper(array, 0);
     }
-//second I create a static method helper(),and inside the helper method I
+    //second I create a static method helper(),and inside the helper method I
     private static void helper(int[] array, int posssition){
 //1. I first check the position to ensure whether the position indicates the last element or not.If the position indicates the last element, then there will be nothing to permute. In this case, we print all the array elements and pass the control to the main() method.
         if(posssition >= array.length - 1){
@@ -24,7 +27,7 @@ public class GetAllPermutation {
 
             System.out.println("]");
 
-           // return;
+            // return;
         }
 //If the position doesn't indicate the last element of the array,
         for(int i = posssition; i < array.length; i++){
@@ -62,4 +65,3 @@ public class GetAllPermutation {
 
     }
 }
-

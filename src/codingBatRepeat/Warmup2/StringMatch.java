@@ -25,7 +25,7 @@ stringMatch("abc", "axc") → 0
 
         int count = 0;
 
-        for (int i = 0; i + 1 < a.length(); i++) {
+        for (int i = 0; i + 1 < a.length() - 1; i++) {
 
             if ((b.indexOf(c + a.charAt(i) + a.charAt(i + 1), i) == i)) {
                 count++;

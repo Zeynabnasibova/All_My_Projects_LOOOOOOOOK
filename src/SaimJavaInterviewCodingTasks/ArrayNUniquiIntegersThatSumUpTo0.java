@@ -1,13 +1,14 @@
 package SaimJavaInterviewCodingTasks;
 
 public class ArrayNUniquiIntegersThatSumUpTo0 {
+
     public static int[] Solution(int N){
 
         int[] result = new int[N];
 
         int sum = 0;
 
-        for(int i=0; i < N-1; i++) {
+        for(int i=0; i < N-1; i++) {//go antil befor last one elemnt
 
             result[i] =i;
 
@@ -15,9 +16,10 @@ public class ArrayNUniquiIntegersThatSumUpTo0 {
 
         }
 
-        result[N-1] = -sum;
+        result[N-1] = -sum;//for last element use this one
 
         return result;
+        // output 0 + 1 + 2 = 3 - 3 = 0
 
     }
 
