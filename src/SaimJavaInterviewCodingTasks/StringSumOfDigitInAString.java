@@ -21,6 +21,11 @@ public class StringSumOfDigitInAString {
         return total;
 
     }
+
+    public static void main(String[] args) {
+        String str = "64hkh";
+        System.out.println(sumOfDigits(str));
+    }
 }
 /*
 Write a method that can return the sum of the digits in a string

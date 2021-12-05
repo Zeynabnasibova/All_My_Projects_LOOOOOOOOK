@@ -6,9 +6,6 @@ import java.util.Collections;
 public class StringFindTheUnique2 {
 
 
-
-
-
     public static String Unique(String str) {
 
         String result ="";

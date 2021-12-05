@@ -24,6 +24,9 @@ same("abc", "abb"); -> false:
 
         String[] arrStr1 = str1.split("");
         String[] arrStr2 = str2.split("");
+//
+//        char [] charStr1 = str1.toCharArray();
+//        char [] charStr2 = str2.toCharArray();
 
         Arrays.sort(arrStr1);
         Arrays.sort(arrStr2);
