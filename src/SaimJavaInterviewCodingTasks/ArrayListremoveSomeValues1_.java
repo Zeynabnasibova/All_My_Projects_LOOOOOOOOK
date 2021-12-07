@@ -3,7 +3,8 @@ package SaimJavaInterviewCodingTasks;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayListremoveSomeValues1 {
+public class
+ArrayListremoveSomeValues1_ {
 
     public static void main(String[] args) {
 

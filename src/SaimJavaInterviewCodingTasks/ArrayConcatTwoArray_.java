@@ -2,7 +2,7 @@ package SaimJavaInterviewCodingTasks;
 
 import java.util.Arrays;
 
-public class ArrayConcatTwoArray {
+public class ArrayConcatTwoArray_ {
 
     public static int[] concatTwoArrays(int[] arr1 , int[] arr2) {
 

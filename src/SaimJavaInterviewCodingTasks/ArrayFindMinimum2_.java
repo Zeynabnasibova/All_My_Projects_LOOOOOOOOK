@@ -2,7 +2,7 @@ package SaimJavaInterviewCodingTasks;
 
 import java.util.Arrays;
 
-public class ArrayFindMinimum2 {
+public class ArrayFindMinimum2_ {
 
     public static int maxValue( int[]  n ) {
 

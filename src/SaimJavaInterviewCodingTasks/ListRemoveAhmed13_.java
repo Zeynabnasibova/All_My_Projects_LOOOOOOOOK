@@ -3,27 +3,25 @@ package SaimJavaInterviewCodingTasks;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.ListIterator;
 
-public class ListRemoveAhmed12 {
-
+public class ListRemoveAhmed13_ {
     public static void main(String[] args) {
 
 
 
     List<String> names = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
 
-for(ListIterator<String> it=names.listIterator(); it.hasNext();)
+            List<String> names2 = new ArrayList<>();
 
-            if(it.next().equals("Ahmed"))
-
-            it.remove();
+    names.forEach(p-> {if(p.equals("Ahmed")) names2.add(p);}  );
 
 
 
-System.out.println(names);
+System.out.println(names2);
 
-    }
+
+}
+
 }
 /*
 Given a list of people' names: "Ahmed", "John", Eric", "Ahmed".....

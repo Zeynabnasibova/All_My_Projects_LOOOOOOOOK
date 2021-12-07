@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class ArrayNUniquiIntegersThatSumUpTo0 {
+public class ArrayNUniquiIntegersThatSumUpTo0_ {
 
     public static int[] Solution(int N){
 

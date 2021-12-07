@@ -3,7 +3,7 @@ package SaimJavaInterviewCodingTasks;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayMoveZerosToTheEnd {
+public class ArrayMoveZerosToTheEnd_ {
     public static int[] moveZeros( int[]  arr ) {
 
         ArrayList<Integer> list = new ArrayList<>();

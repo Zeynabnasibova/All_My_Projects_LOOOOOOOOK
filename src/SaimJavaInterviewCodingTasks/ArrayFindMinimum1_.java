@@ -1,24 +1,22 @@
 package SaimJavaInterviewCodingTasks;
 
-public class ArrayFindMaximum1 {
-
+public class ArrayFindMinimum1_ {
 
     public static int maxValue( int[]  n ) {
 
-        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
         for(int each: n)
 
-            if(each > max)
+            if(each < min)
 
-                max = each;
+                min = each;
 
 
 
-        return max;
+        return min;
 
     }
-
 
 }
 /*

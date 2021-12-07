@@ -24,4 +24,15 @@ if all requirements above are met, the method returns true, otherwise returns  f
 
 
  */
+    
+   // public static boolean passwordValid(String password){
+        
+//        String upperCase =;
+//        String
+//
+//
+//        if(password.length()>=6 && !password.contains(" ") && password.contains())
+//
+//
+ //   }
 }

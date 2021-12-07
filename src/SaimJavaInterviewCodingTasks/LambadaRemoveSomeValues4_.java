@@ -3,7 +3,7 @@ package SaimJavaInterviewCodingTasks;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class LambadaRemoveSomeValues4 {
+public class LambadaRemoveSomeValues4_ {
 
     public static void main(String[] args) {
 

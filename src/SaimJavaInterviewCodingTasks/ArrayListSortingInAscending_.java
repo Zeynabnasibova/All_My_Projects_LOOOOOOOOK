@@ -1,15 +1,19 @@
 package SaimJavaInterviewCodingTasks;
 import java.util.List;
-public class ArrayListSortingInDescendingOrder {
+public class ArrayListSortingInAscending_ {
 
 
-    public static void SortingArrayListDesc(List<Integer> list) {
+    public static void main(String[] args) {
+
+
+    }
+    public static void SortingArrayListAsc(List<Integer> list) {
 
         for (int i = 0; i < list.size(); i++) {
 
             for (int j = 0; j < list.size(); j++) {
 
-                if (list.get(i) > list.get(j)) {
+                if (list.get(i) < list.get(j)) {
 
                     Integer temp = list.get(i);
 
@@ -24,7 +28,8 @@ public class ArrayListSortingInDescendingOrder {
         }
 
     }
+
 }
 /*
-Write a method that can sort the ArrayList in descending order without using the sort method
+Write a method that can sort the ArrayList in Ascending order without using the sort method
  */
