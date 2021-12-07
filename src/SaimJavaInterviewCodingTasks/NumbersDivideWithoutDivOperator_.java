@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersDivideWithoutDivOperator {
+public class NumbersDivideWithoutDivOperator_ {
 
     public static void devides(int num1, int num2) {
 

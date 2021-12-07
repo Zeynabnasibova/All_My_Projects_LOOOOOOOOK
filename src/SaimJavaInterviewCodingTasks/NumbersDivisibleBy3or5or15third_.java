@@ -1,49 +1,39 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersDivisibleBy3or5or15first {
+import java.util.ArrayList;
+import java.util.List;
 
-
+public class NumbersDivisibleBy3or5or15third_ {
     public static void main(String[] args) {
 
-        String divisibleBy15 ="";
+        List<Integer> list = new ArrayList<Integer>();
 
-        String divisibleBy5 ="";
+        for (int i = 0; i < 100; i++)
 
-        String divisibleBy3="";
-
-        int[] arr = new int[100];
-
-        for(int i=0; i < arr.length; i++)
-
-            arr[i] = i+1;
+            list.add(i + 1);
 
 
+        System.out.print("Divisible By 15: ");
 
-        for(int each: arr) {
+        list.forEach(p -> {
+            if (p % 15 == 0 && p % 3 == 0) System.out.print(p + " ");
+        });
 
-            if(each %15==0 && each %3==0)
+        System.out.print("\nDivisible By 5: ");
 
-                divisibleBy15+= each+" ";
+        list.forEach(p -> {
+            if (p % 5 == 0 && p % 15 != 0) System.out.print(p + " ");
+        });
 
-            if(each %5==0 && each % 15!=0)
+        System.out.print("\nDivisible By 3: ");
 
-                divisibleBy5 += each+" ";
-
-            if(each%3==0 && each %15!=0)
-
-                divisibleBy3 += each+" ";
-
-        }
-
-        System.out.println("Divisible By 15: "+divisibleBy15);
-
-        System.out.println("Divisible By 5: "+divisibleBy5);
-
-        System.out.println("Divisible By 3: "+divisibleBy3);
+        list.forEach(p -> {
+            if (p % 3 == 0 && p % 15 != 0) System.out.print(p + " ");
+        });
 
     }
 }
-/*
+    /*
 Write a program that can print the numbers between 1 ~ 100 that can be divisible by 3, 5, and 15.
 
 if the number can be divisible by 3, 5 and 15, then it should only be displayed in DivisibelBy15' section

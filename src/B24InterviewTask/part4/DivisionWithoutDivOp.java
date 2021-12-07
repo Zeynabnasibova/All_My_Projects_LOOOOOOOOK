@@ -18,15 +18,15 @@ public class DivisionWithoutDivOp {
 
     public static int division (int num1, int num2){
 
-        int result = 0;
+        int count = 0;
 
         while (num1 >= num2){
 
             num1 = num1 - num2;
 
-            result++;
+        count++;
 
         }
-        return result;
+        return count;
     }
 }

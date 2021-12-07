@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringFrequencyOfCharacters2 {
+public class StringFrequencyOfCharacters2_ {
 
     public  static  String  FrequencyOfChars(String str) {
 

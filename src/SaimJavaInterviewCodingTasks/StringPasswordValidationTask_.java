@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringPasswordValidationTask {
+public class StringPasswordValidationTask_ {
 
     public static boolean PassWordvalidation(String password) {
 

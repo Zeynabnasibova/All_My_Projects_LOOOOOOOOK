@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringSumOfDigitInAString {
+public class StringSumOfDigitInAString_ {
 
     public  static int  sumOfDigits(String s) {
 

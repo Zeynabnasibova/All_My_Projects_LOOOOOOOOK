@@ -3,7 +3,7 @@ package SaimJavaInterviewCodingTasks;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class StringFrequencyOfCharacters4 {
+public class StringFrequencyOfCharacters4_ {
 
     public static String frequency(String str) {
 

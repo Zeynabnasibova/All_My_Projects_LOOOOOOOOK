@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringRemoveDuplicates1 {
+public class StringRemoveDuplicates1_ {
 
     public static  String  removeDup( String  str) {
 

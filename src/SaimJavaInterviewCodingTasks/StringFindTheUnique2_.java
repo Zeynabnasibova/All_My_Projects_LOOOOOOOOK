@@ -3,7 +3,7 @@ package SaimJavaInterviewCodingTasks;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class StringFindTheUnique2 {
+public class StringFindTheUnique2_ {
 
 
     public static String Unique(String str) {

@@ -3,7 +3,7 @@ package SaimJavaInterviewCodingTasks;
 import java.util.Arrays;
 import java.util.TreeSet;
 
-public class StringSameLetters2 {
+public class StringSameLetters2_ {
 
     public static boolean Same(String str1, String str2) {
 

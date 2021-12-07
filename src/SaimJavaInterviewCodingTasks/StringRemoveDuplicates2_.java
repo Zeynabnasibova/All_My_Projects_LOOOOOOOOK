@@ -1,4 +1,4 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringRemoveDuplicates2 {
+public class StringRemoveDuplicates2_ {
 }

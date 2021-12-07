@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumberReverseNegativeNumber {
+public class NumberReverseNegativeNumber_ {
 
 
     public static int reverseNum(int  num) {

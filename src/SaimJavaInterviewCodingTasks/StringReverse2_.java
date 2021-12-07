@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringReverse2 {
+public class StringReverse2_ {
 
     public  static String  Reverse(String str) {
 

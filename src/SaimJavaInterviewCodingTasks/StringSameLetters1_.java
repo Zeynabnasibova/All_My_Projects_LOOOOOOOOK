@@ -2,7 +2,7 @@ package SaimJavaInterviewCodingTasks;
 
 import java.util.Arrays;
 
-public class StringSameLetters1 {
+public class StringSameLetters1_ {
 
     public static boolean same(String a, String b) {
 

@@ -3,7 +3,7 @@ package SaimJavaInterviewCodingTasks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NumbersDivisibleBy3or5or15second {
+public class NumbersDivisibleBy3or5or15second_ {
 
 
     public static void main(String[] args) {

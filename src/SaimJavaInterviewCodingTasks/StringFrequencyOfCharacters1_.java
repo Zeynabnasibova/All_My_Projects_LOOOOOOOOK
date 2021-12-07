@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringFrequencyOfCharacters1 {
+public class StringFrequencyOfCharacters1_ {
 
 
 

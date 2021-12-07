@@ -3,7 +3,7 @@ package SaimJavaInterviewCodingTasks;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 
-public class StringFrequencyOfCharacters3 {
+public class StringFrequencyOfCharacters3_ {
 
     public  static  String  FrequencyOfChars(String str) {
 

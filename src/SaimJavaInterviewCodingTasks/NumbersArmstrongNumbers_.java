@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersArmstrongNumbers {
+public class NumbersArmstrongNumbers_ {
 
 
     public  static  boolean ArmStrongNumber (int  num) {

@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class StringFindTheUnique1 {
+public class StringFindTheUnique1_ {
 
     public static String unique(String str) {
 
