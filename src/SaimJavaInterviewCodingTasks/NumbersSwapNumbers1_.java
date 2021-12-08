@@ -1,21 +1,23 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersSwapNumbers2 {
+public class NumbersSwapNumbers1_ {
+
+
     public static void main(String[] args) {
 
 
-        int a = 10;
-        int b = 20;
 
-        a = a + b;
+        int  a = 10;      int  b  = 20;
 
-        b = a - b;
+        a = a^b;
 
-        a = a - b;
+        b = a^b;
+
+        a = a^b;
+
 
     }
 }
-
 /*
 Swap two variable' values without using a third variable
  */

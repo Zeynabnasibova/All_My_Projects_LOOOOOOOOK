@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersFINRA2 {
+public class NumbersFINRA2_ {
 
     public static void FINRA() {
 

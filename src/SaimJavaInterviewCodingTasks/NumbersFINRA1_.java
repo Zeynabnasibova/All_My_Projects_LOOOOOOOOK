@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersFINRA1 {
+public class NumbersFINRA1_ {
     public static void FINRA() {
 
         String result = "";
@@ -27,6 +27,11 @@ public class NumbersFINRA1 {
 
         System.out.println(result);
 
+    }
+
+    public static void main(String[] args) {
+
+        FINRA();
     }
 
 

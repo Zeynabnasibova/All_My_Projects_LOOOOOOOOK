@@ -1,7 +1,5 @@
 package B24InterviewTask.part5;
 
-import java.util.Scanner;
-
 public class Number_FINRA {
 
     /*
@@ -10,19 +8,15 @@ Write a method which prints out the numbers from 1 to 30 but for numbers which a
 
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter number");
-        int number = input.nextInt();
-
-        finra(5);
+      finra();
 
     }
 
-    public static void finra(int i ) {
+    public static void finra() {
 
         String result = "";
 
-        for ( i = 1; i <= 30; i++) {
+        for (int i = 1; i <= 30; i++) {
 
             if (i % 3 == 0 && i % 5 == 0) {
                 result += "FINRA ";

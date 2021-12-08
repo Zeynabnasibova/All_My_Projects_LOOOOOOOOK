@@ -2,7 +2,7 @@ package SaimJavaInterviewCodingTasks;
 
 import java.util.Arrays;
 
-public class NumbersFINRA3 {
+public class NumbersFINRA3_ {
 
     public static void FINRA() {
 
@@ -35,7 +35,11 @@ public class NumbersFINRA3 {
         System.out.println(Arrays.toString(myarr));
 
     }
+    public static void main(String[] args) {
 
+        FINRA();
+
+    }
 
 }
 

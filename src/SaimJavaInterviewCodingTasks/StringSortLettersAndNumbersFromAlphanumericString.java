@@ -23,8 +23,6 @@ public class StringSortLettersAndNumbersFromAlphanumericString {
 
             }
 
-
-
             if(Character.isDigit(str.charAt(i)) && i < str.length()-1) {
 
                 if(Character.isAlphabetic(str.charAt(i+1))) {

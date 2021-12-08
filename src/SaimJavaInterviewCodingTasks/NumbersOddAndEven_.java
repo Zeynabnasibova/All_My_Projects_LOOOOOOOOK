@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersOddAndEven {
+public class NumbersOddAndEven_ {
 
 
     public  static  String  identifyOddEven( int  n ) {

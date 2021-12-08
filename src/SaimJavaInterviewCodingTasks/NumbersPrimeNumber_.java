@@ -1,6 +1,6 @@
 package SaimJavaInterviewCodingTasks;
 
-public class NumbersPrimeNumber {
+public class NumbersPrimeNumber_ {
 
     public static void main(String[] args) {
         System.out.println(primeNumber(32));
