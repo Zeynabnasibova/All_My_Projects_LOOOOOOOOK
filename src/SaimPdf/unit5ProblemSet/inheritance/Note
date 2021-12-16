@@ -1,0 +1,44 @@
+Inheritance is a very important and popular concept in OOP.
+
+What is Inheritance?
+The keyword extends is used to make a class inherits data and behaviors of another class.This is called Inheritance
+           Ex: public Truck extends Car {
+           }
+
+Note:Only public and protected members of the superclass are inherited by the subclass.
+
+Why is Inheritance?
+
+-Inheritance is for reusing code.
+-inheritance is for the purpose of extensibility.
+
+How is Inheritance implemented in Java?
+       Inheritance can be implemented in three ways:
+NOTE:A final class is a class that can't be extended.
+1.A class inherits another class.The keyword extends is used
+          EXAMPLE:
+                public class Person { }
+
+                public class Deisnger extends Person { }
+
+                public class Programmer extends Person { }
+
+                public class Architect extends Programmer { }
+
+2.A class implements another interface. The keyword implements is used.
+                EXAMPLE:
+                public interface Wearable { }
+
+                public class Shirt implements Wearable { }
+
+                public class Glass implements Wearable { }
+
+3.An interface inherits another interface. The keyword extends is used.
+                EXAMPLE:
+                public interface Collection { }
+
+                public interface List extends Collection { }
+
+                public interface Set extends Collection { }
+
+Message @leyla

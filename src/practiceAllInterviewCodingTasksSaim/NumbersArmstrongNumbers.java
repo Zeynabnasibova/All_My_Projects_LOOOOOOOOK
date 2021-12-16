@@ -36,32 +36,7 @@ public class NumbersArmstrongNumbers {
         }
 
 
-        int cubsSum = 0;
-        while(num != 0){
-            int remainder = num % 10;
-            cubsSum += remainder * remainder * remainder;
-            num = num / 10;
 
-        }
-        System.out.println(cubsSum);
-
-        System.out.println(arnmstrongNum(num));
-    }
-    public static boolean arnmstrongNum (int num ){
-
-        int sumofCubs = 0;
-
-        while (num != 0){
-
-        int remainder = num % 10;
-            sumofCubs += remainder * remainder * remainder;
-            num = num / 10;
-        }
-        if(sumofCubs == num){
-            return  true;
-        }else{
-            return  false;
-        }
     }
 
 

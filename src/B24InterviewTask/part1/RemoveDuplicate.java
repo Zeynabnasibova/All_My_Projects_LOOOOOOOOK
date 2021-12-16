@@ -9,7 +9,7 @@ Ex: removeDup("AAABBBCCC") ==> ABC
  */
     public static void main(String[] args) {
 
-        System.out.println(removeDuplicates("AAABBBCCC"));
+        System.out.println(removeDuplicates("AAABBBCCC DD D"));
     }
 
     public static String removeDuplicates(String str){

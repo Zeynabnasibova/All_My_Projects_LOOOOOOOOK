@@ -5,7 +5,7 @@ public class NumbersArmstrongNumbers_ {
 
     public  static  boolean ArmStrongNumber (int  num) {
 
-        int a = 0,    b =0,    c= num;
+        int a = 0,    b =0,    c = num;
 
         while(num>0){
 

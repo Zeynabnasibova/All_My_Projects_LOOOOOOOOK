@@ -34,7 +34,7 @@ solution 1:
                 count++;
             }
         }
-         result  += letter.charAt(i) +  count;
+         result  += letter.charAt(i) + "" + count;
         }
 
        return result;
