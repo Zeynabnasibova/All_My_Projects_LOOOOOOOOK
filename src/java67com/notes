@@ -1,0 +1,252 @@
+We'll start the list by first exploring array-based questions like finding pairs whose sum is given a number and then move to string-based questions, linked list-based questions, binary tree questions, and finally tackler other topics.
+
+
+1. Array-based Programming Interview Questions
+If you ask me just one topic to prepare really well for coding interviews, I would pick the array. It's one of the essential data structures and favorite darling of coding interviews. There are so many popular coding interview questions that are based upon the array, some of them are easy and some are tough but you can be sure that you will see some questions based upon the array in your next programming job interview.
+
+If you don't know, an array is a data structure that holds other objects like String, int, float, etc. It holds them in a contiguous location in memory which makes them easily searchable and retrieval in O(1) time using the index.
+
+Insertion and deletion of an array are tough because you cannot change the size of an array once created and you need to create a new array and copy elements from old to new.
+
+Anyway, here are some of the most popular array-based coding interview questions for your preparation:
+
+1. How to find the missing number in a given integer array of 1 to 100? (solution)
+
+2. How to find the duplicate number on a given integer array? (solution)
+
+3. How to find the largest and smallest number in an unsorted integer array? (solution)
+
+4. How to find all pairs of integer arrays whose sum is equal to a given number? (solution)
+
+5. How to find duplicate numbers in an array if it contains multiple duplicates? (solution)
+
+6. How to remove duplicates from a given array in Java? (solution)
+
+7. How to sort an integer array in place using the QuickSort algorithm? (solution)
+
+8. How to remove duplicates from an array in place? (solution)
+
+9. How to reverse an array in place in Java? (solution)
+
+10. How to find multiple missing numbers in a given integer array with duplicates? (solution)
+
+I have linked all the solutions but you should try to solve them by yourself before looking at the solution, especially if you have time. That's the only sure way to learn to program by solving these coding questions.
+
+If you find these questions difficult to solve then once again I suggest you first refresh your knowledge of fundamental data structures like an array by going through a comprehensive course. If you need recommendations, Algorithms, and Data Structures Part 1 and Part 2 by Robert Harvick are two of the best course to start with. You will also learn about Big(O) notation and how to calculate time and space complexity.
+
+Array based Programming Interview Questions Answers
+
+
+If you think these 10 questions from the array are not enough and you are interested in solving more array-based programming problems then you can also check out these 30 array-based coding questions for more practice.
+
+
+
+2. String-based Coding Interview Questions
+After array, String is the next popular topic on Programming job interviews, but if you have a good understanding of array then you can easily deal with String programming questions because String is nothing but a character array.
+
+The string is implemented differently in a different programming language like in C it's a NULL-terminated character array but in Java, it's an object. However, you can still get access to the underlying array to apply your logic.
+
+Here is a list of some of the frequently asked coding questions which are based on String. Though some of them are quite old, you can still expect this in your programming job interview:
+
+11. How to Print duplicate characters from String? (solution)
+
+12. How to check if two Strings are anagrams of each other? (solution)
+
+13. How to print the first non-repeated character from String? (solution)
+
+14. How to reverse a given string using recursion? (solution)
+
+15. How to check if a string contains only digits? (solution)
+
+16. How to find duplicate characters in a String? (solution)
+
+17. How to count a number of vowels and consonants in a given String? (solution)
+
+18. How to count the occurrence of a given character in String? (solution)
+
+19. How to find all permutations of String? (solution)
+
+20. How to reverse words in a given sentence without using any library method? (solution)
+
+21. How to check if two String is a rotation of each other? (solution)
+
+22. How to check if the given String is Palindrome? (solution)
+
+Similar to an array, I have also linked to a solution for all of these String problems but if you want to get most of this article, you better solve these questions without looking at the answers. Only when you are stuck and running out-of-time, you can look at the solution.
+
+And, if you find these frequently asked String problems difficult to solve, maybe it's time to go back to the drawing board and learn the fundamentals of String data structure again.  If you need resources then Data Structures and Algorithms Specialization on Coursera is one of the best online resources you can use to make your foundations rock solid.
+
+
+Top 50 Coding Interview Questions
+
+
+You can also learn from it by comparing your solution with the solution I have given. It's not necessarily to be the same but you can learn a lot by comparing them and if you need more practice, here is another list of 20 String algorithm questions.
+
+
+
+3. Linked list based Programming Interview Questions
+Along with array and string, a linked list is another popular data structure in the programming world as well as on coding interviews. You will find a lot of questions on a linked list like reversing a linked list, adding a new element, removing an element from the middle, etc.
+
+It's also the counterpart of an array data structure. While array stores elements on contiguous memory locations, the linked list stores them at different locations and finds them by storing their address. a linked list is made of nodes, an internal data structure that holds the value as well as the address of the next node.
+
+Because of its structure, it's easier to add and remove elements from the linked list like on O(1) time if you are adding or removing from the head but the search is equally difficult and takes O(n) time, as you have to literally walk through each element.
+
+Anyway, here is a collection of some of the simple and tricky linked list based coding questions for your practice:
+
+23. How to find the middle element of a singly linked list in one pass? (solution)
+
+24. How to check if a given linked list contains a cycle? How to find the starting node of the cycle? (solution)
+
+25. How to reverse a linked list? (solution)
+
+26. How to reverse a single linked list without recursion? (solution)
+
+27. How to remove duplicate nodes in an unsorted linked list? (solution)
+
+28. How to find the length of a singly linked list? (solution)
+
+29. How to find the 3rd node from the end in a singly linked list? (solution)
+
+30. How do you find the sum of two linked lists using Stack? (program)
+
+Similar to array and string, I have also linked to all the solutions but you should only look at them once you solved the problem on your own or you feel stuck.
+
+A key to solving the linked list is a good understanding of recursion because a linked list is a naturally recursive data structure, for example, if you take one node out of the linked list, the result is another linked list, but many programmers struggle to understand recursion.
+
+That was the case with me as well but after practice and visualizing how recursion really works, I overcome that deficiency. If you are in the same boat, I strongly suggest you go through a visual course like Visualizing Data Structures and Algorithms in Java to learn Recursion and data structure. That will help you a lot in your thought process and problem-solving skills.
+
+Top 75 Programming Interview Questions and Solutions
+
+Once you understand recursion, most of the linked list based problems have an easy recursive solution than their iterative version. And if you need more practice, here is another list of 30 linked list programming questions for your reference.
+
+
+
+4. Binary Tree-based Coding Interview Questions
+A tree is another popular data structure in the programming world and coding interviews. Unlike array and linked list, which are considered linear data structures, a tree is considered a hierarchical data structure and used to arrange information in hierarchical order.
+
+There are a lot of different types of trees e.g. a binary tree, binary search tree, AVL tree, Red-Black tree, etc but Binary and Binary search trees are also known as BST are two of the most popular ones and most of the questions are based upon them.
+
+Some questions are also based upon theoretical knowledge of tree data structure e.g. finding the height of the tree, finding leaf nodes, checking if the tree is balanced or not, etc, hence you should also spend some time learning the basics, along with practicing coding questions.
+
+Anyway, here is a list of popular binary tree and binary search tree based coding questions to practice before your job interview:
+
+30. Can you write a program to implement a binary search tree?  (solution)
+
+31. How do you perform Pre-order traversal in a given binary tree? (solution)
+
+32. Write a Program to traverse a given binary tree in Pre-order without recursion (solution)
+
+33. How to perform an In order traversal in a given binary tree? (solution)
+
+34. How to print all nodes of a given binary tree using inorder traversal without recursion (solution)
+
+35. How to implement a Post-order traversal algorithm? (solution)
+
+36. How to traverse a binary tree in Postorder traversal without recursion (solution)
+
+37. How to Print all leaves of a binary search tree? (solution)
+
+38. How to count a number of leaf nodes in a given binary tree? (solution)
+
+39. How to perform a binary search in a given array? (solution)
+
+Like an array, linked list, and string questions, I have also linked to all solutions for binary tree questions but you should only look at them once you have tried it yourself.
+
+One trick I would like to share with you while solving tree questions is to remember that, similar to a linked list, the tree is also a recursive data structure and most of the tree based problems has an easy recursive solution.
+
+For example, a subtree is also a tree which means you can apply the same steps to a subtree can devise a recursive solution. In the above list, many popular tree algorithms e.g. pre-order, post-order, in-order are implemented recursively as well as iterative.
+
+If you don't feel confident to solve these problems and want to refresh your knowledge of binary tree and other data structure before attempting these questions, then you should check out Data Structures and Algorithms: Deep Dive Using Java from Udemy.
+
+Top 75 Essential Programming Interview Questions to Crack Any Coding Interview
+
+
+
+
+5. Miscellaneous Programming Interview Questions
+Even though data structure-based questions make the bulk of the Coding Interview, there are always some questions from topics like sorting algorithms, bit manipulation, software design, Dynamic Programming, and other logical and tricky questions.
+
+In this list below, you will find most of the common searching and sort questions as well as a couple of design and bit manipulation questions.
+
+40. How to implement the Bubble Sort algorithm? (solution)
+
+41. How to implement Iterative QuickSort Algorithm? (solution)
+
+42. How to implement the Insertion Sort Algorithm? (solution)
+
+43. How to implement Merge Sort Algorithm? (solution)
+
+44. How to implement the Bucket Sort Algorithm? (solution)
+
+45. How to implement the Counting Sort Algorithm? (solution)
+
+46. How to implement Radix Sort Algorithm? (solution)
+
+47. How to swap two numbers without using the third variable? (solution)
+
+48. How to check if two rectangles overlap with each other? (solution)
+
+49. How to design a Vending Machine? (solution)
+
+50. How to implement an LRU Cache in your favorite programming language? (solution)
+
+51. How to check if a given number is a Palindrome? (solution)
+
+52. How do you check if a given number is an Armstrong number? (solution)
+
+53. How do you find all prime factors of a given number? (solution)
+
+54. How do you check if a given number is positive or negative in Java? (solution)
+
+55. How to find the largest prime factor of a given integral number? (solution)
+
+56. Write a Program to print all prime numbers up to a given number? (solution)
+
+57. Write a Program to print Floyd's triangle? (solution)
+
+58. Write a Program to print Pascal's triangle? (solution)
+
+59. How to calculate the square root of a given number? (solution)
+
+60. How to check if the given number is a prime number? (solution)
+
+61. How to implement the Sieve of Eratosthenes Algorithm? (solution)
+
+62. How to add two numbers without using the plus operator in Java? (solution)
+
+63. Write a Program to subtract two binary numbers? (solution)
+
+64. Write a Program to transpose a Matrix? (solution)
+
+65. Write a Program to add or subtract two Matrices? (solution)
+
+66. Write a Program to multiply two Matrices in Java? (solution)
+
+67. How to calculate the average of all numbers in a given array? (solution)
+
+68. How to check if a given number is even/odd without using an Arithmetic operator? (solution)
+
+69. Write a Program to find the GCD of two numbers using Euclid's Algorithm? (solution)
+
+70.  How to find the number of 1s (the Set bit) in a given Bit Sequence? (solution)
+
+71. Write a Program to a given Pyramid structure? (solution)
+
+72. How to find the highest repeating world from a given file in Java? (solution)
+
+73. How to reverse a given Integer in Java? (solution)
+
+74. How to convert a decimal number to binary in Java? (solution)
+
+75. How to check if a given year is a leap year in Java? (solution)
+
+Like previous topics, I have provided links to a solution but you should only look at them once you tried to solve the questions yourself. That's important for learning.
+
+
+That's all about some of the essential Programming and Coding Interview questions to crack any programming Job interview. This list covers the most important topics like an array, string, linked list, binary tree, and several others.
+
+Once you have gone through all these coding questions, you can not only solve them when you see them in the interview but also develop the coding sense and problem-solving ability which will help you to solve new and slightly modified versions of these questions in real programming interviews.
+
+Though, if you are not in a rush and want to hone your coding skill further, here are some more resources to practice questions
+
+Read more: https://www.java67.com/2018/05/top-75-programming-interview-questions-answers.html#ixzz7FRe2KKSO

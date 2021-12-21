@@ -31,6 +31,7 @@ public class ArrayListContains {
 
         ArrayList<String> list = new ArrayList<>( Arrays.asList("banana", "guava", "apple", "cheeku") );
 
+        System.out.println(list.size()-1);
        boolean element1 = list.contains("apple");     //true
         int elm1 = list.indexOf("apple");      //2
 

@@ -1,4 +1,4 @@
-package oopUdemu.Methods;
+package johnPurcell_caveofprogramming_com.methods;
 
 class Person {
 
@@ -9,7 +9,7 @@ class Person {
     //1. Data
     //2. Subroutines (methods)
 
-    void speak () { //behaviour
+    void speak () { //behaviour //subroutine //method
 
         for (int i = 0; i < 3; i++) {
             System.out.println("My name is " + name + " and I am " + age + " years old ");
