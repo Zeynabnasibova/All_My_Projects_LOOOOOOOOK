@@ -2,7 +2,7 @@ package SaimJavaInterviewCodingTasks;
 
 import java.util.ArrayList;
 
-public class ArraySortAscending1_ {
+public class ArraySortAscending1 {
 
     public static int[] Sort(int[] a) {
 

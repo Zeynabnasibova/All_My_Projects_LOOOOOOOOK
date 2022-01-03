@@ -2,9 +2,9 @@ package SaimJavaInterviewCodingTasks;
 
 import java.util.ArrayList;
 
-public class ArraySortAscending2_ {
+public class ArraySortDescending2 {
 
-    public static void SortingArrayAsc(int[] arr) {
+    public static void SortingArrayDesc(int[] arr) {
 
         ArrayList<Integer> list = new ArrayList();
 
@@ -18,7 +18,7 @@ public class ArraySortAscending2_ {
 
             for (int j = 0; j < list.size(); j++) {
 
-                if (list.get(i) < list.get(j)) {
+                if (list.get(i) > list.get(j)) {
 
                     Integer temp = list.get(i);
 
@@ -40,16 +40,11 @@ public class ArraySortAscending2_ {
 
     }
 }
+
 /*
-Write a return method that can sort an int array in Ascending order without using the sort method of the Arrays class
+Write a return method that can sort an int array in descending order without using the sort method of the Arrays class
 
-Ex:
+Ex:  int[] arr = {10,20,7, 8, 90};
 
-            int[] arr = {10, 9, 8, 7};
-
-             arr = Sort(arr);         ==>{ 7, 8, 9, 10};
-
-
-
-
+                 arr = Sort(arr);  ==>  {90, 20, 10, 8, 7};
  */

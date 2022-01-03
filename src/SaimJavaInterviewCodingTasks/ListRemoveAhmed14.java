@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class ListRemoveAhmed14_ {
+public class ListRemoveAhmed14 {
     public static void main(String[] args) {
 
 

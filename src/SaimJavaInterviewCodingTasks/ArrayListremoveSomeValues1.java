@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class
-ArrayListremoveSomeValues1_ {
+ArrayListremoveSomeValues1 {
 
     public static void main(String[] args) {
 
