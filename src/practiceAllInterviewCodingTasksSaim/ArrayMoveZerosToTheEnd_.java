@@ -2,7 +2,7 @@ package practiceAllInterviewCodingTasksSaim;
 
 import java.util.Arrays;
 
-public class ArrayMoveZerosToTheEnd {
+public class ArrayMoveZerosToTheEnd_ {
     /*
 Write a method that can move all the zeros to  last indexes of the array (Do Not Use Sort Method)
 

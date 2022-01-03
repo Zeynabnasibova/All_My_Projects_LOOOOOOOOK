@@ -2,7 +2,7 @@ package practiceAllInterviewCodingTasksSaim;
 
 import java.util.Arrays;
 
-public class ArrayNUniquiIntegersThatSumUpTo0 {
+public class ArrayNUniquiIntegersThatSumUpTo0_ {
     /*
 Write a function:
 
@@ -32,7 +32,7 @@ that, given an integer N (1 < N < 100), returns an array containing N unique int
     }
 
     public static void main(String[] args) {
-int n = 4;
+int n = 2;
         System.out.println(Arrays.toString(solution(n)));
 
         // output 0 + 1 + 2 = 3 - 3 = 0
