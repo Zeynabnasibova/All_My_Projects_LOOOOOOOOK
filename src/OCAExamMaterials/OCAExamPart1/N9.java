@@ -1,4 +1,4 @@
-package canvasOCASertification;
+package OCAExamMaterials.OCAExamPart1;
 
 public class N9 {
     public static void main(String[] args) {

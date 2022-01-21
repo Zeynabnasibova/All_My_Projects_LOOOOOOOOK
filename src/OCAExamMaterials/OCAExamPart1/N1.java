@@ -1,4 +1,4 @@
-package canvasOCASertification;
+package OCAExamMaterials.OCAExamPart1;
 
 import java.util.Arrays;
 
@@ -25,7 +25,7 @@ public class N1 {
 //
 //
       // System.out.println(arr);
-        System.out.println(Arrays.deepToString(arr));
+  //      System.out.println(Arrays.deepToString(arr));
       //  System.out.println(Arrays.toString(arr[1]));
     }
 }
