@@ -12,5 +12,9 @@ package canvasOCASertification.OCAExamMaterials.OCAExamPart2;
         System.out.println(new String("Java SE 8"));
         System.out.println(new N39("Java SE 8"));
 
+int a1 = 5;
+double a2 = (float)a1;
+        System.out.println(a2);
+
     }
 }

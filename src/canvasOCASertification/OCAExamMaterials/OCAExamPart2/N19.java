@@ -19,7 +19,7 @@ public class N19 {
         System.out.println(Arrays.deepToString(chs));
         for (int a = 0; a < chs.length; a++){
             for (int b = 0; b < chs[a].length; b++){
-                System.out.println(chs[a][b] + " ");
+                System.out.print(chs[a][b] + " ");
             }
         }
 
