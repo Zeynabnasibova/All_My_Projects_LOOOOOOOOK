@@ -1,7 +1,5 @@
 package w3resource_com.BasicPart_1;
 
-import java.util.Locale;
-
 public class Ex59 {
 
     public static void main(String[] args) {
@@ -14,12 +12,9 @@ Input a String: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
 the quick brown fox jumps over the lazy dog.
 
  */
-
-        String sentence = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
-
+        String sentence = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.".toLowerCase();
         String newSentence = sentence.toLowerCase();
-
         System.out.println(newSentence); // the quick brown fox jumps over the lazy dog.
-
+        System.out.println(sentence);
     }
 }
