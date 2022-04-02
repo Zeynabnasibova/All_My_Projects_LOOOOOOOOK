@@ -8,23 +8,19 @@ Input number: 5
 5 + 55  + 555
  */
 public class Ex44 {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    public static void main(String [] args){
+        Scanner input = new Scanner (System.in);
         System.out.println("Enter your number");
         int num = input.nextInt();
-        //        5 + 5*10+5 + 5*10+5*10+5
-       // int sum = num + (num * 10 + num) + (num * 10 + num)*10 + num ;
-//        System.out.println(sum);
-//        System.out.println(num + " + " + num + num + " + " + num + num + num + " = " + sum);
-        int s= 0;//55
-        int sum = 0;
-        for(int i = 0; i < 4; i++){
+        int newNum = num;
+        // 5 * 10 + 5 = 55
+        // 55 * 10 + 5 = 555
+        String contain = "";
 
-            s = s * 10  + 5;//0 * 10 + 5 //5 * 10 + 5 // 55*10 + 5
-            sum += s;
-
-            System.out.print(s + " + ");
+        for(int i = 0; i < 2; i++){
+            num = num * 10 + newNum;
+            contain += num + " + ";
         }
-        System.out.println(" = " + sum);
+        System.out.println(newNum + " + " + contain.substring(0,contain.length()-2));
     }
 }

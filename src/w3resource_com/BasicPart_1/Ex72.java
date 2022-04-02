@@ -8,16 +8,19 @@ Sample Output:
 ###
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        String str1 = input.next();
-        if( str1.length() >= 3){
-            System.out.println(str1.substring(0,3));
-        }else if(str1.length() == 1) {
-            System.out.println(str1.substring(0) + "##");
-        }else if(str1.length()==2){
-            System.out.println(str1.substring(0)+ "#");
+        Scanner input = new Scanner (System.in);
+        System.out.println("Enter your word");
+        String str = input.nextLine();
+        String newStr = "";
+        if(str.length() >= 3){
+            newStr = str.substring(0,3);
+        }else if (str.length() == 2){
+            newStr = str.substring(0) + "#";
+        }else if(str.length() == 1){
+            newStr = str.substring(0) + "##";
         }else{
-            System.out.println("###");
+            newStr = "###";
         }
+        System.out.println(newStr);
     }
 }

@@ -9,22 +9,25 @@ Input the second number: 13
 Result: 13
      */
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter num1");
         int num1 = input.nextInt();
+
+        System.out.println("Enter num2");
         int num2 = input.nextInt();
         System.out.println(max(num1, num2));
     }
-    public static int max(int num1, int num2){
-        int max = Integer.MIN_VALUE;
-        if (num1 > num2){
-            max = num1;
-            return max;
-        }else if(num1 == num2) {
+
+    public static int max(int num1, int num2) {
+        if (num1 == num2) {
             return 0;
-        }else if(num1 < num2 && num1 % 6 == num2 % 6){
-            return num1;
-        }else{
-            return num2;
         }
+        if (num1 % 6 == num2 % 6) {
+
+            return (num1 < num2) ? num1 : num2;
         }
+        return (num1 > num2) ? num1 : num2;
+
     }
+}

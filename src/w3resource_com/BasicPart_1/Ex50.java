@@ -16,21 +16,25 @@ Divided by 5:
 Divided by 3 & 5:
 15, 30, 45, 60, 75, 90,
      */
-    public static void main(String[] args) {
-        String divBoth = "";
-        String div3="";
-        String div5="";
+    public static void main(String [] args){
+
+        System.out.println("\nDivided by 3: ");
         for(int i = 1; i <= 100; i++){
-            if(i % 3 == 0 && i % 5==0){
-                divBoth += i + " ";
-            }else if(i % 3 == 0){
-                div3+=i + " ";
-            }else{
-             div5+=i + " ";
+            if(i % 3 == 0){
+                System.out.print(i + ", ");
             }
         }
-        System.out.println("Divided by 3 & 5:  \n" + divBoth);
-        System.out.println("Divided by 3: \n" +div3);
-        System.out.println("Divided by 5: \n" + div5);
+        System.out.println("\nDivided by 5: ");
+        for(int i = 1; i <= 100; i++){
+            if(i % 5 == 0){
+                System.out.print(i + ", ");
+            }
+        }
+        System.out.println("\n\nDivided by 3 & 5: ");
+        for(int i = 1; i <= 100; i++){
+            if(i % 3 == 0 && i % 5 == 0){
+                System.out.print(i + ", ");
+            }
+        }
     }
 }

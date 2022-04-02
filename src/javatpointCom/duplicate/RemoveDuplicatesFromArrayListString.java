@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import static java.util.Arrays.asList;
 
-public class RemoveDuplicatesFromArrayListString {
+public class  RemoveDuplicatesFromArrayListString {
 
     /**
      * How to remove duplicates from String ArrayList ?

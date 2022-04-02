@@ -10,10 +10,10 @@ Input the second number: 7
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int num1 = input.nextInt();
-        int num2 = input.nextInt();
-        int divided = num1 / num2;
-        int module = num1 - (divided * num2);
+        int num1 = input.nextInt();//5
+        int num2 = input.nextInt();//2
+        int divided = num1 / num2;//5 / 2 = 2
+        int module = num1 - (divided * num2);// 5 - (2 *2) = 1
         System.out.println(module);
       //  System.out.println(num1 % num2);
         System.out.println(num1/num2);

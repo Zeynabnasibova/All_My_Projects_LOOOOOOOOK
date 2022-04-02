@@ -12,19 +12,18 @@ Input the third number : 15
 The result is: true
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter your first number");
+        Scanner input = new Scanner (System.in);
+        System.out.println("Enter your num1");
         int num1 = input.nextInt();
-        System.out.println("Enter your second number");
-        int num2 = input.nextInt();
-        System.out.println("Enter your third number");
+        int num2= input.nextInt();
         int num3 = input.nextInt();
-        System.out.println(greater(num1, num2, num3));
+        boolean abc = input.nextBoolean();
+        System.out.println(num(num1,num2,num3,abc));
     }
-    public static boolean greater(int num1, int num2, int num3){
+    public static boolean num(int num1, int num2, int num3, boolean abc){
 
-        if(num2 > num1 && num3 > num2 ){
-            return true;
+        if(num2 > num1 && num3 > num2 || abc == true && num3 > num2){
+            return  true;
         }else{
             return false;
         }
