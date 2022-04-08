@@ -1,7 +1,5 @@
 package javaFlowControl;
 
-import com.sun.xml.internal.xsom.XSUnionSimpleType;
-
 public class JavaFlowControlStatements {
 
     public static void main(String[] args) {
