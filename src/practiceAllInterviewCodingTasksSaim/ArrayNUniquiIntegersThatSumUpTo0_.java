@@ -32,7 +32,7 @@ that, given an integer N (1 < N < 100), returns an array containing N unique int
     }
 
     public static void main(String[] args) {
-int n = 2;
+int n = 4;
         System.out.println(Arrays.toString(solution(n)));
 
         // output 0 + 1 + 2 = 3 - 3 = 0
