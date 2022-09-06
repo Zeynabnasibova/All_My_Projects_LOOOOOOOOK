@@ -1,0 +1,28 @@
+package codingPractice.codingBatRepeat.Logic2;
+
+public class noTeenSum {
+
+    public static void main(String[] args) {
+
+
+
+    }
+    public int noTeenSum(int a, int b, int c) {
+
+        return fixTeen(a) + fixTeen(b) + fixTeen(c);
+
+}
+
+public int fixTeen(int n) {
+
+        if ( (n >=13 && n < 15) || (n > 16 && n <= 19) )
+
+        return 0;
+
+        else
+
+        return n;
+
+        }
+
+        }

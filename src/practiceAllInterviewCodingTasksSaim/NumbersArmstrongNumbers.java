@@ -13,6 +13,32 @@ public class NumbersArmstrongNumbers {
      * For example 153 is an Armstrong number
      * of 3 digit because 1^3+5^3+3^3 or   1+125+27=153
      */
+    public static boolean arnmstrongNum (int num ){//153
+
+        int orig = num;//153
+
+        int sumofCubs = 0;
+
+        while (num != 0){
+
+            int remainder = num % 10;
+
+            sumofCubs = sumofCubs + remainder * remainder * remainder;
+
+            num = num / 10;
+        }
+        if(sumofCubs == orig){
+
+            return  true;
+
+        }else{
+
+            return  false;
+        }
+    }
+
+
+
 
 
     public static void main(String[] args) {
