@@ -16,9 +16,10 @@ public class ListRemoveAhmed {
 
         while(it.hasNext()) {
 
-            if(it.next().equals("Ahmed"))
+            if(it.next().equals("Ahmed")) {
 
                 it.remove();
+            }
 
         }
 

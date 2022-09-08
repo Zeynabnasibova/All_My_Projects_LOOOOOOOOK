@@ -5,6 +5,12 @@ import java.util.Map;
 import java.util.Stack;
 
 public class BalanceBrackets {
+    public static void main(String[] args) {
+
+        BalanceBrackets obj = new BalanceBrackets();
+
+        System.out.println(obj.isBalanced("{([])}"));
+    }
 
     /*
     * [IQ] Create a method that will accept a String of brackets. Determine if the brackets are balanced. Brackets are balanced if the closing bracket matches the opening one.
@@ -47,4 +53,5 @@ Given a string containing three types of brackets, determine if it is balanced.
         }
         return stack.isEmpty();
     }
+
 }
