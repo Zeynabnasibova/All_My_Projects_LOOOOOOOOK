@@ -1,13 +1,15 @@
 package codingPractice.replit_.methodsWithReturn;
-import java.util.Scanner;
+
 public class CountAppearance {
 
     public static int count(String[] str1, String str) {
+
         int count = 0;
 
         for (int i = 0; i < str1.length; i++) {
 
             if(str1[i].equals(str)){
+
                 count++;
             }
 
@@ -16,15 +18,10 @@ public class CountAppearance {
     }
 
     public static void main(String [] args){
-        Scanner input = new Scanner(System.in);
-        int size  = input.nextInt();
-        String [] str1 = new String [size];
-        for(int i = 0; i < str1.length; i++){
-            str1[i] = input.nextLine();
-        }
+        String [] strArr = {"a","foo","bar","foo","bla"};
+        String str = "foo";
+        System.out.println(count(strArr,str));
 
-        String str = input.nextLine();
-        System.out.println(count(str1,str));
     }
 
 
